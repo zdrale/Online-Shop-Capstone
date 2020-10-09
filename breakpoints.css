@@ -1,32 +1,66 @@
 @media (max-width: 767px) {
-  .header-mobile-wrapper {
+  .header-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     background-color: #383838;
-    height: 75px;
+    padding: 1.2rem;
   }
 
-  .header-mobile-wrapper h2{
+  .header-wrapper h2{
     font-family: 'Lato', sans-serif;
     color: #f8f9fa!important;
     font-weight: bold;
   }
 
-  .header-mobile-wrapper ul {
+  .header-wrapper ul {
     display: flex;
     font-family: 'Roboto', sans-serif;
     color: #888;
   }
   
-  .header-mobile-wrapper ul li {
+  .header-wrapper ul li {
     padding: 0 1.5rem;
   }
+
+  .search {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 1rem;
+   width: 101%;
+   height: 14rem;
+   font-family: 'Lato', sans-serif;
+   font-size: 1.2rem;
+   font-weight: lighter;
+   color: #fff;
+   background:linear-gradient(180deg, rgba(211, 82, 102, 1) 0%,
+    rgba(199, 43, 67, 0.8995973389355743) 20%,
+    rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
+   height: 60vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  }
+  
+  .input{
+   margin-top: 90px;
    
-  .fa-watch
-  {
-    color: white;
   }
 
+  #select-watch {
+   height: 1.7rem;
+   width: 5rem;
+   font-family: 'Lato', sans-serif;
+  }
+
+  #placeholder {
+   height: 1.37rem;
+   width: 9rem;
+   font-family: 'Lato', sans-serif;
+  }
 }
