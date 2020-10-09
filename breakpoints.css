@@ -8,9 +8,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: auto;
+    width: 100%;
     background-color: #383838;
     padding: 1.2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
   }
 
   .header-wrapper h2{
