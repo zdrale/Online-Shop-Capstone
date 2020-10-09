@@ -1,0 +1,32 @@
+@media (max-width: 767px) {
+  .header-mobile-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #383838;
+    height: 75px;
+  }
+
+  .header-mobile-wrapper h2{
+    font-family: 'Lato', sans-serif;
+    color: #f8f9fa!important;
+    font-weight: bold;
+  }
+
+  .header-mobile-wrapper ul {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+  }
+  
+  .header-mobile-wrapper ul li {
+    padding: 0 1.5rem;
+  }
+   
+  .fa-watch
+  {
+    color: white;
+  }
+
+}
