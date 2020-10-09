@@ -1,4 +1,5 @@
-@media (max-width: 767px) {
+/* Mobile */
+@media (max-width: 768px) {
     h2, p {
     font-family: 'Lato', sans-serif;
    }
@@ -97,12 +98,11 @@
 
   .catalogue-wrapper {
    display: grid;
-   width: 100%;
-   grid-template-columns: 1fr 1fr;
+   width: auto;
+   grid-template-columns: auto;
    grid-column-gap: 31px;
    grid-row-gap: 20px;
    grid-auto-flow: dense;
-   /* padding: 0 24px 37px; */
    font-family: 'Lato', sans-serif;
    color: #888888;
    font-weight: bold;
@@ -111,6 +111,7 @@
   .watch {
    display: flex;
    flex-direction: column;   
+   width: 100%;
   }
  
 }
