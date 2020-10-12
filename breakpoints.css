@@ -12,7 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: auto;
     background-color: #383838;
     padding: 1.2rem;
   }
@@ -39,7 +39,7 @@
    justify-content: flex-start;
    align-items: center;
    padding: 1rem;
-   width: 100%;
+   width: auto;
    height: 14rem;
    font-size: 1.2rem;
    font-weight: lighter;
@@ -231,10 +231,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: auto;
     background-color: #383838;
     padding: 1.2rem;
     height:1.5rem;
+    }
+    
+    .search {
+      width: auto;
+    }
+
+    .hot-ads p{
+      text-align: right;
     }
 }
 
@@ -252,7 +260,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: auto;
     background-color: #383838;
     padding: 1.2rem;
   }
@@ -279,7 +287,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 1rem;
-    width: 100%;
+    width: auto;
     font-size: 2.2rem;
     font-weight: lighter;
     color: #fff;
@@ -422,6 +430,7 @@
    .copyright {
     font-size: 15px;
     margin-left: 3rem;
+    margin-bottom: 2rem;
    }
 
    .social {
