@@ -15,9 +15,6 @@
     width: 100%;
     background-color: #383838;
     padding: 1.2rem;
-    position: fixed;
-    top: 0;
-    right: 0;
   }
 
   .navbar-wrapper h2{
@@ -42,7 +39,7 @@
    justify-content: flex-start;
    align-items: center;
    padding: 1rem;
-   width: auto;
+   width: 100%;
    height: 14rem;
    font-size: 1.2rem;
    font-weight: lighter;
@@ -96,17 +93,33 @@
   }
   
   .catalogue {
+   
    text-align: center;
    width: auto;
   }
   
   .catalogue h2 {
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  .hot-ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.2rem;
+    font-size: 3px;
+    height: 30px;
+    width: 90px;
+    background-color: #D35266;
+  }
+  
+  .hot-ads h2 {
+    color: white;
   }
 
   .catalogue-wrapper {
    display: grid;
-   width: auto;
+   width: 100%;
    grid-template-columns: auto;
    grid-column-gap: 31px;
    grid-row-gap: 20px;
@@ -114,7 +127,7 @@
    font-family: 'Lato', sans-serif;
    color: #888888;
    font-weight: bold;
-  }
+  } 
 
   .watch {
    display: flex;
@@ -190,6 +203,10 @@
      text-decoration: none;
      color: red;
    }
+   
+    .watch img {
+     max-width: 100%;
+   } 
 }
 /* Mobile Phones */
 @media screen and (max-width: 600px) {
