@@ -209,16 +209,17 @@
    } 
 
    .men-header {
-    border: 1px solid  #f8f9fa;
     margin-top: 5.2rem;
+    margin-bottom: 3rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 3rem;
     font-size: 1.3rem;
-    color: black;
+    color: #969696;
     background-color: #f8f9fa;
    }
+
 }
 /* Mobile Phones */
 @media screen and (max-width: 600px) {
