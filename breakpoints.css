@@ -237,3 +237,139 @@
     height:1.5rem;
     }
 }
+
+/*Big Screens*/
+@media (min-width: 769px) {
+  h2, p {
+    font-family: 'Lato', sans-serif;
+   }
+
+  .header-mobile {
+    display: none;
+  }
+
+  .navbar-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #383838;
+    padding: 1.2rem;
+  }
+
+  .navbar-wrapper h2{
+    color: #f8f9fa!important;
+    font-weight: bold;
+    padding-left: 2rem;
+  }
+  
+  .navbar-wrapper ul{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #888;
+  }
+
+  .navbar-wrapper ul li {
+    padding: 0 1.5rem;
+  }
+
+  .search {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    color: #fff;
+    background:linear-gradient(180deg, rgba(211, 82, 102, 1) 0%,
+     rgba(199, 43, 67, 0.8995973389355743) 20%,
+     rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+
+   .search h2 {
+     margin-top: 5.2rem;
+   }
+   
+   #select-watch {
+     height: 2.4rem;
+     width: 10rem;
+     border-radius: 4px;
+   }
+
+   #placeholder {
+    height: 2.4rem;
+    width: 10rem;
+    border-radius: 4px;
+    border-style: none;
+   }
+   
+   button {
+    margin-top: 60px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f8f9fa;
+    padding: 0.4rem;
+    width: 6rem;
+    background-color: #383838;
+    border: none;
+    border-radius: 4px;
+   }
+
+   hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+   }
+   
+   .hot-ads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.2rem;
+    font-size: 3px;
+    height: 30px;
+    width: 90px;
+    background-color: #D35266;
+  }
+
+   .catalogue {
+    text-align: center;
+    width: auto;
+   }
+   
+   .catalogue h2 {
+     font-size: 16px;
+   }
+
+   .catalogue-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    grid-column-gap: 31px;
+    grid-row-gap: 20px;
+    grid-auto-flow: dense;
+    font-family: 'Lato', sans-serif;
+    color: #888888;
+    font-weight: bold;
+   } 
+ 
+   .men-header {
+    margin-top: 5.2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3rem;
+    font-size: 1.3rem;
+    color: #969696;
+    background-color: #f8f9fa;
+   }
+}
