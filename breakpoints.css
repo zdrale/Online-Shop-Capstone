@@ -1,9 +1,13 @@
-/* Mobile */
-@media (max-width: 768px) {
+/* TABLETS */
+@media screen and (max-width: 768px) {
     h2, p {
     font-family: 'Lato', sans-serif;
    }
    
+  .header-mobile {
+    display: none;
+  }
+
   .navbar-wrapper {
     display: flex;
     justify-content: space-around;
@@ -21,13 +25,13 @@
     font-weight: bold;
     padding-left: 2rem;
   }
-
-  .navbar-wrapper ul {
+  
+  .navbar-wrapper ul{
     display: flex;
     font-family: 'Roboto', sans-serif;
     color: #888;
   }
-  
+
   .navbar-wrapper ul li {
     padding: 0 1.5rem;
   }
@@ -187,12 +191,21 @@
      color: red;
    }
 }
+/* Mobile Phones */
+@media screen and (max-width: 600px) {
+  .header {
+    display: none;
+  }
 
-
-@media (max-width: 376px) {
-    .navbar-wrapper i
-    {
-      display: none;
-    }
-
+  .header-mobile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #383838;
+    padding: 1.2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
 }
