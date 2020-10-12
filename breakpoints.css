@@ -207,6 +207,18 @@
     .watch img {
      max-width: 100%;
    } 
+
+   .men-header {
+    border: 1px solid  #f8f9fa;
+    margin-top: 5.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3rem;
+    font-size: 1.3rem;
+    color: black;
+    background-color: #f8f9fa;
+   }
 }
 /* Mobile Phones */
 @media screen and (max-width: 600px) {
