@@ -2,9 +2,6 @@
 > This project was created by the design of ZATTIX and has customized content. The main goal of this project was to follow design of website and show skills by making web site of someones design.
 
 ![screenshot](Assets/Images/screenshot1.png)
-![screenshot](Assets/Images/screenshot2.png)
-![screenshot](Assets/Images/screenshot3.png)
-
 
 This project is the 8th one in the HTML/CSS module at Microverse, also it is Capstone which means its lats one in this module.
 
