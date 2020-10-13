@@ -1,9 +1,9 @@
 /* TABLETS */
 
 @media screen and (max-width: 768px) {
-h2,
-p {
-  font-family: 'Lato', sans-serif;
+  h2,
+  p {
+    font-family: 'Lato', sans-serif;
 }
 
 .header-mobile {
