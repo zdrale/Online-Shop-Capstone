@@ -1,6 +1,5 @@
 /* TABLETS */
 @media screen and (max-width: 768px) {
-
   h2,
   p {
     font-family: 'Lato', sans-serif;
@@ -46,9 +45,7 @@
     font-size: 1.2rem;
     font-weight: lighter;
     color: #fff;
-    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%,
-        rgba(199, 43, 67, 0.8995973389355743) 20%,
-        rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
+    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%,rgba(199, 43, 67, 0.8995973389355743) 20%,rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -263,7 +260,6 @@
 
 /*Big Screens*/
 @media (min-width: 769px) {
-
   h2,
   p {
     font-family: 'Lato', sans-serif;
