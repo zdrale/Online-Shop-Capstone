@@ -46,7 +46,7 @@
     font-size: 1.2rem;
     font-weight: lighter;
     color: #fff;
-    background: linear-gradient ( 180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 20%, rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
+    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 20%, rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,6 +58,8 @@
   }
 
   .input {
+    display: flex;
+    flex-direction: row;
     margin-top: 90px;
   }
 
@@ -66,12 +68,14 @@
   }
 
   #select-watch {
+    margin-right: 0.2rem;
     height: 2rem;
     width: 5rem;
     font-family: 'Lato', sans-serif;
   }
 
   #placeholder {
+    margin-right: 1rem;
     height: 1.7rem;
     width: 9rem;
     font-family: 'Lato', sans-serif;
@@ -80,6 +84,19 @@
   #search {
     text-decoration: none;
     color: #f8f9fa;
+  }
+
+  #button {
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f8f9fa;
+    padding: 0.3rem;
+    width: 6rem;
+    background-color: #383838;
+    border: none;
+    border-radius: 4px;
   }
 
   button {
@@ -253,7 +270,18 @@
 	#search {
 		text-decoration: none;
 		color: #f8f9fa;
-	}
+  }
+  
+  #button {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f8f9fa;
+    padding: 0.3rem;
+    width: 6rem;
+    background-color: #383838;
+    border: none;
+    border-radius: 4px;
+  }
 }
 
 /*Big Screens*/
@@ -265,6 +293,12 @@
 		text-align: center;
   }
   
+  .input {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+  }
+
 	#search {
 		text-decoration: none;
 		color: #f8f9fa;
@@ -337,10 +371,25 @@
   }
   
 	#placeholder {
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
 		height: 2.4rem;
 		width: 10rem;
 		border-radius: 4px;
 		border-style: none;
+  }
+    
+  #button {
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f8f9fa;
+    padding: 0.3rem;
+    width: 6rem;
+    background-color: #383838;
+    border: none;
+    border-radius: 4px;
   }
   
 	button {
