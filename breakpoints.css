@@ -53,13 +53,17 @@
    background-repeat: no-repeat;
    background-attachment: fixed;
   }
-
-  .search h2 {
+  
+    .search h2 {
     margin-top: 20px;
   }
   
   .input{
    margin-top: 90px;
+  }
+
+  .input a {
+    text-decoration: none;
   }
 
   #select-watch {
@@ -118,12 +122,11 @@
   }
 
   .catalogue-wrapper {
-   display: grid;
+   display: flex;
+   justify-content: space-evenly;
    width: 100%;
-   grid-template-columns: auto;
-   grid-column-gap: 31px;
-   grid-row-gap: 20px;
-   grid-auto-flow: dense;
+   margin-left: 1.2rem;
+   margin-right: 1.2rem;
    font-family: 'Lato', sans-serif;
    color: #888888;
    font-weight: bold;
@@ -244,12 +247,22 @@
     .hot-ads p{
       text-align: right;
     }
+
+    .watch {
+      font-size: 12px;
+    }
+    
+    #swipe {
+      font-size: 12px;
+    }
+   
 }
 
 /*Big Screens*/
 @media (min-width: 769px) {
   h2, p {
     font-family: 'Lato', sans-serif;
+    text-align: center;
    }
 
   .header-mobile {
@@ -339,7 +352,7 @@
    
    .hot-ads {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-left: 1.2rem;
     font-size: 3px;
@@ -358,12 +371,7 @@
    }
 
    .catalogue-wrapper {
-    display: grid;
-    width: 100%;
-    grid-template-columns: auto auto;
-    grid-column-gap: 31px;
-    grid-row-gap: 20px;
-    grid-auto-flow: dense;
+    
     font-family: 'Lato', sans-serif;
     color: #888888;
     font-weight: bold;
@@ -451,7 +459,7 @@
      color: red;
    }
    
-    .watch img {
+   .watch img {
      max-width: 100%;
    } 
 }
