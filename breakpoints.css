@@ -4,11 +4,11 @@
   h2,
   p {
     font-family: 'Lato', sans-serif;
-}
+  }
 
   .header-mobile {
     display: none;
-}
+  }
 
   .navbar-wrapper {
     display: flex;
@@ -23,7 +23,7 @@
     color: #f8f9fa !important;
     font-weight: bold;
     padding-left: 2rem;
-}
+  }
 
   .navbar-wrapper ul {
     display: flex;
@@ -46,7 +46,7 @@
     font-size: 1.2rem;
     font-weight: lighter;
     color: #fff;
-    background: linear-gradient( 180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 20%, rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
+    background: linear-gradient ( 180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 20%, rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@
     height: 1.7rem;
     width: 9rem;
     font-family: 'Lato', sans-serif;
-    }
+  }
 
   #search {
     text-decoration: none;
@@ -220,8 +220,8 @@
 /* Mobile Phones */
 
 @media screen and (max-width: 600px) {
-	.header {
-		display: none;
+  .header {
+    display: none;
   }
   
 	.header-mobile {
@@ -360,7 +360,8 @@
 		margin-bottom: 2rem;
 		border: 0;
 		border-top: 1px solid rgba(0, 0, 0, .1);
-	}
+  }
+  
 	.hot-ads {
 		display: flex;
 		justify-content: space-around;
@@ -461,6 +462,6 @@
   }
   
 	.watch img {
-		max-width: 100%;
+    max-width: 100%;
 	}
 }

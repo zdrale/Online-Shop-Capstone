@@ -97,29 +97,29 @@ header,
 hgroup, 
 menu, 
 nav, 
-section {
+  section {
 	display: block;
-}
-body {
+  }
+  body {
 	line-height: 1;
-}
-ol, 
-ul {
+  }
+  ol, 
+  ul {
 	list-style: none;
-}
-blockquote, 
-q {
+  }
+  blockquote, 
+  q {
 	quotes: none;
-}
-blockquote:before, 
-blockquote:after,
-q:before, 
-q:after {
-content: '';
-content: none;
-}
-table {
+  }
+  blockquote:before, 
+  blockquote:after,
+  q:before, 
+  q:after {
+  content: '';
+  content: none;
+  }
+  table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+  }
 
