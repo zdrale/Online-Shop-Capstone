@@ -4,7 +4,8 @@
   h2,
   p {
     font-family: 'Lato', sans-serif;
-}
+   }
+
   .header-mobile {
     display: none;
   }
@@ -16,19 +17,23 @@
     background-color: #383838;
     padding: 1.2rem;
   }
+
   .navbar-wrapper h2 {
     color: #f8f9fa !important;
     font-weight: bold;
     padding-left: 2rem;
   }
+
   .navbar-wrapper ul {
     display: flex;
     font-family: 'Roboto', sans-serif;
     color: #888;
   }
+
   .navbar-wrapper ul li {
     padding: 0 1.5rem;
   }
+
   .search {
     display: flex;
     flex-direction: column;
@@ -46,29 +51,36 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
+
   .search h2 {
     margin-top: 20px;
   }
+
   .input {
     margin-top: 90px;
   }
+
   .input a {
     text-decoration: none;
   }
+
   #select-watch {
     height: 2rem;
     width: 5rem;
     font-family: 'Lato', sans-serif;
   }
+
   #placeholder {
     height: 1.7rem;
     width: 9rem;
     font-family: 'Lato', sans-serif;
   }
+
   #search {
     text-decoration: none;
     color: #f8f9fa;
   }
+
   button {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -79,18 +91,22 @@
     border: none;
     border-radius: 4px;
   }
+
   hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-top: 1px solid rgba(0, 0, 0, .1);
   }
+
   .catalogue {
     text-align: center;
     width: auto;
   }
+
   .catalogue h2 {
     font-size: 16px;
   }
+
   .hot-ads {
     display: flex;
     justify-content: center;
@@ -101,9 +117,11 @@
     width: 90px;
     background-color: #d35266;
   }
+
   .hot-ads h2 {
     color: white;
   }
+
   .catalogue-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -114,45 +132,55 @@
     color: #888;
     font-weight: bold;
   }
+
   .watch {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
+
   .about {
     display: flex;
     flex-direction: row;
     text-align: justify;
     font-family: 'Catamaran', sans-serif;
   }
+
   .about p {
     font-family: 'Catamaran', sans-serif;
     margin: 0 5rem;
   }
+
   .categories {
    margin-top: 2rem;
   }
+
   .categories h2 {
     font-family: 'Lato', sans-serif;
     font-weight: lighter;
   }
+
   .categories hr {
    width: 76%;
   }
+
   .categories ul {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
     margin-left: 5rem;
     line-height: 2rem;
   }
+  
   .categories a {
     text-decoration: none;
     color: #d35266;
   }
+
   .copyright {
     font-size: 15px;
     margin-left: 3rem;
   }
+
   .social {
     display: flex;
     flex-direction: row;
@@ -160,17 +188,21 @@
     align-content: center;
     margin-right: 2rem;
   }
+
   .social-icon-link {
     margin: 0 1rem;
     text-decoration: none;
   }
+
   .social a {
     text-decoration: none;
     color: red;
   }
+
   .watch img {
     max-width: 100%;
   }
+
   .men-header {
     margin-top: 5.2rem;
     margin-bottom: 3rem;
@@ -190,7 +222,8 @@
 @media screen and (max-width: 600px) {
 	.header {
 		display: none;
-	}
+  }
+  
 	.header-mobile {
 		display: flex;
 		justify-content: space-around;
@@ -199,19 +232,24 @@
 		background-color: #383838;
 		padding: 1.2rem;
 		height: 1.5rem;
-	}
+  }
+  
 	.search {
 		width: auto;
-	}
+  }
+  
 	.hot-ads p {
 		text-align: right;
-	}
+  }
+  
 	.watch {
 		font-size: 12px;
-	}
+  }
+  
 	#swipe {
 		font-size: 12px;
-	}
+  }
+  
 	#search {
 		text-decoration: none;
 		color: #f8f9fa;
@@ -226,14 +264,17 @@
 	p {
 		font-family: 'Lato', sans-serif;
 		text-align: center;
-	}
+  }
+  
 	#search {
 		text-decoration: none;
 		color: #f8f9fa;
-	}
+  }
+  
 	.header-mobile {
 		display: none;
-	}
+  }
+  
 	.navbar-wrapper {
 		display: flex;
 		justify-content: space-around;
@@ -241,7 +282,8 @@
 		width: auto;
 		background-color: #383838;
 		padding: 1.2rem;
-	}
+  }
+  
 	footer h2 {
 		text-align: left;
 		font-size: 1.5rem;
@@ -249,20 +291,24 @@
 		color: #212529;
 		margin-bottom: 1rem;
 		margin-left: 5rem;
-	}
+  }
+  
 	.navbar-wrapper h2 {
 		color: #f8f9fa !important;
 		font-weight: bold;
 		padding-left: 2rem;
-	}
+  }
+  
 	.navbar-wrapper ul {
 		display: flex;
 		font-family: 'Roboto', sans-serif;
 		color: #888;
-	}
+  }
+  
 	.navbar-wrapper ul li {
 		padding: 0 1.5rem;
-	}
+  }
+  
 	.search {
 		display: flex;
 		flex-direction: column;
@@ -279,21 +325,25 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-	}
+  }
+  
 	.search h2 {
 		margin-top: 5.2rem;
-	}
+  }
+  
 	#select-watch {
 		height: 2.4rem;
 		width: 10rem;
 		border-radius: 4px;
-	}
+  }
+  
 	#placeholder {
 		height: 2.4rem;
 		width: 10rem;
 		border-radius: 4px;
 		border-style: none;
-	}
+  }
+  
 	button {
 		margin-top: 60px;
 		font-family: 'Lato', sans-serif;
@@ -304,7 +354,8 @@
 		background-color: #383838;
 		border: 0;
 		border-radius: 4px;
-	}
+  }
+  
 	hr {
 		margin-top: 2rem;
 		margin-bottom: 2rem;
@@ -320,19 +371,23 @@
 		height: 30px;
 		width: 90px;
 		background-color: #d35266;
-	}
+  }
+  
 	.catalogue {
 		text-align: center;
 		width: auto;
-	}
+  }
+  
 	.catalogue h2 {
 		font-size: 16px;
-	}
+  }
+  
 	.catalogue-wrapper {
 		font-family: 'Lato', sans-serif;
 		color: #888;
 		font-weight: bold;
-	}
+  }
+  
 	.men-header {
 		margin-top: 5.2rem;
 		margin-bottom: 3rem;
@@ -343,57 +398,69 @@
 		font-size: 1.3rem;
 		color: #969696;
 		background-color: #f8f9fa;
-	}
+  }
+  
 	.about {
 		display: flex;
 		flex-direction: row;
 		text-align: justify;
 		font-family: 'Catamaran', sans-serif;
-	}
+  }
+  
 	.about p {
 		font-family: 'Catamaran', sans-serif;
 		margin: 0 5rem;
-	}
+  }
+  
 	.categories {
 		margin-top: 2rem;
-	}
+  }
+  
 	.categories h2 {
 		font-family: 'Lato', sans-serif;
 		font-weight: lighter;
-	}
+  }
+  
 	.categories hr {
 		width: 76%;
-	}
+  }
+  
 	.categories ul {
 		font-family: 'Lato', sans-serif;
 		font-size: 13px;
 		margin-left: 5rem;
 		line-height: 2rem;
-	}
+  }
+  
 	.categories a {
 		text-decoration: none;
 		color: #d35266;
-	}
+  }
+  
 	.copyright {
 		font-size: 15px;
 		margin-left: 3rem;
 		margin-bottom: 2rem;
-	}
+  }
+  
 	.social {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
 		align-content: center;
 		margin-right: 2rem;
-	}
+  }
+  
 	.social-icon-link {
 		margin: 0 1rem;
 		text-decoration: none;
-	}
+  }
+  
 	.social a {
 		text-decoration: none;
 		color: red;
-	}
+  }
+  
 	.watch img {
 		max-width: 100%;
 	}
