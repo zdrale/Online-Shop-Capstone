@@ -20,7 +20,7 @@ Also I added 3 breakpoints for responsiveness.
 - Slick
 ## Live Demo
 
-[Live Demo Link](https://nostalgic-dijkstra-dddde0.netlify.app/
+[Live Demo Link](https://nostalgic-dijkstra-dddde0.netlify.app/)
 
 ## Author
 
