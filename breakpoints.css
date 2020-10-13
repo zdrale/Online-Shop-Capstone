@@ -1,4 +1,5 @@
 /* TABLETS */
+
 @media screen and (max-width: 768px) {
   h2,
   p {
@@ -45,8 +46,10 @@
     font-size: 1.2rem;
     font-weight: lighter;
     color: #fff;
-    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%,rgba(199, 43, 67, 0.8995973389355743) 20%,rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
-    height: 60vh;
+    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%, 
+  rgba(199, 43, 67, 0.8995973389355743) 20%, 
+  rgba(211, 82, 102, 0.3617822128851541) 101%), 
+    url(./Assets/Images/watch-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,12 +99,10 @@
   hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: 0;
     border-top: 1px solid rgba(0, 0, 0, .1);
   }
 
   .catalogue {
-
     text-align: center;
     width: auto;
   }
@@ -118,7 +119,7 @@
     font-size: 3px;
     height: 30px;
     width: 90px;
-    background-color: #D35266;
+    background-color: #d35266;
   }
 
   .hot-ads h2 {
@@ -132,7 +133,7 @@
     margin-left: 1.2rem;
     margin-right: 1.2rem;
     font-family: 'Lato', sans-serif;
-    color: #888888;
+    color: #888;
     font-weight: bold;
   }
 
@@ -140,15 +141,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
-
-  footer h2 {
-    text-align: left;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #212529;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
   }
 
   .about {
@@ -185,7 +177,7 @@
 
   .categories a {
     text-decoration: none;
-    color: #D35266;
+    color: #d35266;
   }
 
   .copyright {
@@ -230,6 +222,7 @@
 }
 
 /* Mobile Phones */
+
 @media screen and (max-width: 600px) {
   .header {
     display: none;
@@ -261,14 +254,25 @@
     font-size: 12px;
   }
 
+  #search {
+    text-decoration: none;
+    color: #f8f9fa;
+  }
+
 }
 
 /*Big Screens*/
+
 @media (min-width: 769px) {
   h2,
   p {
     font-family: 'Lato', sans-serif;
     text-align: center;
+  }
+  
+  #search {
+    text-decoration: none;
+    color: #f8f9fa;
   }
 
   .header-mobile {
@@ -282,6 +286,15 @@
     width: auto;
     background-color: #383838;
     padding: 1.2rem;
+  }
+  
+  footer h2 {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
   }
 
   .navbar-wrapper h2 {
@@ -345,7 +358,7 @@
     padding: 0.4rem;
     width: 6rem;
     background-color: #383838;
-    border: none;
+    border: 0;
     border-radius: 4px;
   }
 
@@ -364,7 +377,7 @@
     font-size: 3px;
     height: 30px;
     width: 90px;
-    background-color: #D35266;
+    background-color: #d35266;
   }
 
   .catalogue {
@@ -379,7 +392,7 @@
   .catalogue-wrapper {
 
     font-family: 'Lato', sans-serif;
-    color: #888888;
+    color: #888;
     font-weight: bold;
   }
 
@@ -393,15 +406,6 @@
     font-size: 1.3rem;
     color: #969696;
     background-color: #f8f9fa;
-  }
-
-  footer h2 {
-    text-align: left;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #212529;
-    margin-bottom: 1rem;
-    margin-left: 5rem;
   }
 
   .about {
@@ -438,7 +442,7 @@
 
   .categories a {
     text-decoration: none;
-    color: #D35266;
+    color: #d35266;
   }
 
   .copyright {
