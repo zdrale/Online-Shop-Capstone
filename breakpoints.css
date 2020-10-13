@@ -142,6 +142,7 @@
 
   .catalogue-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
     margin-left: 1.2rem;
