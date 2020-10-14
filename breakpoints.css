@@ -27,7 +27,7 @@
 
   .navbar-wrapper ul {
     display: flex;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'myFont', sans-serif;
     color: #888;
   }
 
