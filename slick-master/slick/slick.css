@@ -22,9 +22,7 @@
 {
     position: relative;
     display: block;
-
     overflow: hidden;
-
     margin: 0;
     padding: 0;
 }
@@ -53,10 +51,10 @@
     position: relative;
     top: 0;
     left: 0;
-
     display: block;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
 }
 .slick-track:before,
 .slick-track:after
@@ -78,7 +76,6 @@
 {
     display: none;
     float: left;
-
     height: 100%;
     min-height: 1px;
     margin:10px 0;
