@@ -30,3 +30,6 @@ Also I added 3 breakpoints for responsiveness.
 - Twitter: [@zdralenikola](https://twitter.com/zdralenikola)
 - LinkedIn: [@nikola-zdrale](https://www.linkedin.com/in/nikola-zdrale/)
 
+## Acknowledgement
+
+I have followed the design given by Mohammed Awad on Behance
