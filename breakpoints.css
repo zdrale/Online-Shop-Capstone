@@ -34,6 +34,19 @@
   .navbar-wrapper ul li {
     padding: 0 1.5rem;
   }
+  
+  .ad-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.2rem;
+    font-size: 12px;
+    height: 30px;
+    width: 90px;
+    background-color: #d35266;
+    color: white;
+    border-radius: 4px;
+  }
 
   .search {
     display: flex;
@@ -156,6 +169,14 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  
+  footer {
+    margin-left: 2rem;
+  }
+
+  footer h2{
+    margin-bottom: 2rem;
   }
 
   .about {
@@ -310,6 +331,19 @@
 		color: #f8f9fa;
   }
   
+  .ad-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.2rem;
+    font-size: 12px;
+    height: 30px;
+    width: 90px;
+    background-color: #d35266;
+    color: white;
+    border-radius: 4px;
+  }
+
 	.header-mobile {
 		display: none;
   }
