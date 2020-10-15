@@ -123,7 +123,7 @@
     border: none;
     border-radius: 50%;
     height: 50px;
-  } 
+  }
 
   hr {
     margin-top: 2rem;
@@ -285,10 +285,6 @@
     width:91%;
   }
 
-  #button{
-    margin-top: 1rem;
-  }
-
   .hot-ads p {
     text-align: right;
   }
@@ -316,6 +312,7 @@
     background-color: #383838;
     border: none;
     border-radius: 4px;
+    margin-top: 1rem;
   }
 
   .catalogue-wrapper {
