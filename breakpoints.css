@@ -19,6 +19,10 @@
     padding: 1.2rem;
   }
 
+  footer h2 {
+    margin-bottom: 2rem;
+  }
+
   .navbar-wrapper h2 {
     color: #f8f9fa !important;
     font-weight: bold;
@@ -46,7 +50,7 @@
     background-color: #d35266;
     color: white;
     border-radius: 4px;
-    font-family: 'myFont';
+    font-family: 'Lato', sans-serif;
   }
 
   .search {
@@ -176,10 +180,6 @@
   footer {
     margin-left: 2rem;
   }
-  
-  footer h2 {
-    margin-bottom: 2rem;
-  }
 
   .about {
     display: flex;
@@ -282,7 +282,7 @@
   }
 
   #select-watch {
-    width:91%;
+    width: 91%;
   }
 
   .hot-ads p {
@@ -303,12 +303,11 @@
   }
 
   #button {
-    font-family: 'Lato', sans-serif;
     font-size: 16px;
     color: #f8f9fa;
     padding: 0.3rem;
     width: 6rem;
-    font-family: 'myFont';
+    font-family: 'Lato', sans-serif;
     background-color: #383838;
     border: none;
     border-radius: 4px;
@@ -352,7 +351,7 @@
     background-color: #d35266;
     color: white;
     border-radius: 4px;
-    font-family: 'myFont';
+    font-family: 'Lato', sans-serif;
   }
 
   .header-mobile {
@@ -460,7 +459,7 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 0;
-    border-top: 1px solid rgba(0, 0, 0, .1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
   .hot-ads {
