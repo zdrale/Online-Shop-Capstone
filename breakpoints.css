@@ -160,8 +160,6 @@
   }
 
   .catalogue-wrapper {
-    display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     width: auto;
     margin-left: 1.2rem;
@@ -329,6 +327,10 @@
     text-align: center;
   }
 
+  .men-watches {
+    background-color: #f8f9fa;
+  }
+
   .input {
     display: flex;
     flex-direction: row;
@@ -482,7 +484,7 @@
     font-size: 16px;
   }
 
-  .catalogue-wrapper {
+  .catalogue-wrapper-hot {
     font-family: 'Lato', sans-serif;
     color: #888;
     font-weight: bold;
