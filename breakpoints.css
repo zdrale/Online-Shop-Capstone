@@ -2,6 +2,7 @@
 
 @media screen and (max-width: 768px) {
   h2,
+  h1,
   p {
     font-family: 'Lato', sans-serif;
   }
@@ -12,6 +13,58 @@
 
   .men-watches {
     background-color: #f8f9fa;
+  }
+
+  .watch {
+    display: flex;
+    height: 300px;
+    margin: 0 auto;
+  }
+  
+  .watch img {
+    margin: 0 auto;
+  }
+
+  .about-watch h1 {
+    color: rgba(199, 43, 67, 0.8995973389355743);
+    font-size: 20px;
+  }
+
+  .about-watch p {
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+  }
+
+  .by {
+    margin-top: 2rem;
+  }
+
+  .watch:before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
+    position: absolute;
+    bottom: 300px;
+    color: rgba(199, 43, 67, 0.8995973389355743);
+  }
+
+  .watch::after {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
+    position: absolute;
+    right: 60px;
+    bottom: 300px;
+    color: rgba(199, 43, 67, 0.8995973389355743);
+  }
+
+  .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100px;
+    margin-left: 17rem;
+    margin-top: 1rem;
+    background-color: rgba(199, 43, 67, 0.8995973389355743);
+    border-radius: 4px;
+    color: white;
   }
 
   .navbar-wrapper {
@@ -36,11 +89,15 @@
   .navbar-wrapper ul {
     display: flex;
     font-family: 'myFont', sans-serif;
-    color: #888;
   }
 
   .navbar-wrapper ul li {
     padding: 0 1.5rem;
+    color: #888;
+  }
+
+  .navigation a {
+    text-decoration: none;
   }
 
   .ad-button {
@@ -58,35 +115,7 @@
   }
 
   .search {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 1rem;
-    width: auto;
-    height: 14rem;
-    font-size: 1.2rem;
-    font-weight: lighter;
-    color: #fff;
-    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 20%, rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-  }
-
-  .search h2 {
-    margin-top: 20px;
-  }
-
-  .input {
-    display: flex;
-    flex-direction: row;
-    margin-top: 90px;
-  }
-
-  .input a {
-    text-decoration: none;
+    display: none;
   }
 
   #select-watch {
@@ -101,11 +130,6 @@
     height: 1.7rem;
     width: 9rem;
     font-family: 'Lato', sans-serif;
-  }
-
-  #search {
-    text-decoration: none;
-    color: #f8f9fa;
   }
 
   #button {
@@ -147,6 +171,10 @@
     margin-bottom: 2rem;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
+  
+  .catalogue-wrapper-hot {
+    display: flex;
+  }
 
   .catalogue {
     text-align: center;
@@ -170,16 +198,6 @@
 
   .hot-ads h2 {
     color: white;
-  }
-
-  .catalogue-wrapper {
-    justify-content: space-evenly;
-    width: auto;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
-    font-family: 'Lato', sans-serif;
-    color: #888;
-    font-weight: bold;
   }
 
   .watch {
@@ -476,13 +494,17 @@
   .navbar-wrapper ul {
     display: flex;
     font-family: 'Roboto', sans-serif;
-    color: #888;
   }
 
   .navbar-wrapper ul li {
     padding: 0 1.5rem;
+    color: #888;
   }
-
+  
+  .navigation a {
+    text-decoration: none; 
+  }
+  
   .search {
     display: flex;
     flex-direction: column;
