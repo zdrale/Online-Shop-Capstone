@@ -20,7 +20,28 @@
     height: 300px;
     margin: 0 auto;
   }
+
+  .watch-cell {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+  }
   
+  .price-catalogue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin:auto;
+    height: 30px;
+    width: 100px;
+    margin-top: 60px;
+    background-color: rgba(199, 43, 67, 0.8995973389355743);
+    border-radius: 4px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
   .watch img {
     margin: 0 auto;
   }
@@ -60,8 +81,7 @@
     align-items: center;
     height: 30px;
     width: 100px;
-    margin-left: 17rem;
-    margin-top: 1rem;
+    margin: auto;
     background-color: rgba(199, 43, 67, 0.8995973389355743);
     border-radius: 4px;
     color: white;
@@ -116,6 +136,24 @@
 
   .search {
     display: none;
+  }
+  
+  .catalogue-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .watch-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+  }
+
+  .catalogue-wrapper-women {
+    display: flex;
+    flex-direction: column;
   }
 
   #select-watch {
@@ -348,10 +386,6 @@
     margin-top: 1rem;
   }
 
-  .catalogue-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 /* Big Screens */
