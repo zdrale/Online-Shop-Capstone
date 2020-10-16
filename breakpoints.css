@@ -409,7 +409,21 @@
     background-color: rgba(199, 43, 67, 0.8995973389355743);
     border-radius: 4px;
     color: white;
-    
+  }
+
+  .price-catalogue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-right:1rem;
+    height: 30px;
+    width: 100px;
+    margin-top: 60px;
+    background-color: rgba(199, 43, 67, 0.8995973389355743);
+    border-radius: 4px;
+    color: white;
+    font-family: 'Lato', sans-serif;
   }
 
   #search {
@@ -550,6 +564,77 @@
     color: #d35266;
   }
 
+  .catalogue-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+      ". . . .";
+    margin: 0 180px;
+    padding: 1rem;
+  }
+
+  .catalogue-wrapper-women {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+      ". . . .";
+    margin: 0 180px;
+    padding: 1rem;
+  }
+
+  .catalogue-wrapper::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
+    position: absolute;
+    left: 4rem;
+    bottom: -30rem;
+    color: rgba(199, 43, 67, 0.8995973389355743);
+  }
+
+  .catalogue-wrapper::after {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
+    position: absolute;
+    color: rgba(199, 43, 67, 0.8995973389355743);
+    right: 4rem;
+    bottom: -30rem;
+  }
+
+  .catalogue-wrapper-women::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
+    position: absolute;
+    color: rgba(199, 43, 67, 0.8995973389355743);
+    left: 4rem;
+    bottom: -70rem;
+  }
+
+  .catalogue-wrapper-women::after {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
+    position: absolute;
+    color: rgba(199, 43, 67, 0.8995973389355743);
+    right: 4rem;
+    bottom: -70rem;
+  }
+
+  .watch-cell {
+    width: 300px;
+    height: 490px;
+    background-color: white;
+    border: 1px solid #ddd;
+  }
+
+  .watch-cell p {
+    text-align: left;
+    margin-left: 1rem;
+  }
+
+  .watch-cell h2 {
+    text-align: left;
+    margin-left: 1rem;
+  }
+
   .catalogue {
     text-align: center;
     width: auto;
@@ -566,11 +651,9 @@
   }
 
   .men-header {
-    margin-top: 5.2rem;
-    margin-bottom: 3rem;
+    padding-top: 1.5rem;
+    margin-left: 12rem;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     height: 3rem;
     font-size: 1.3rem;
     color: #969696;
