@@ -12,17 +12,20 @@
     <title>Online Watch Shop</title>
 </head>
 <body>
-  <!-- Header Section -->
-  <header class="header">
-      <div class="navbar-wrapper">
-       <h2>Luxury Watches</h2>
-       <ul class="navigation">
-        <li> <i class="fas fa-home home"></i> Home</li>
-        <li> <i class="fas fa-list"></i> Collections</li>
-        <li> <i class="fas fa-cart-plus"></i> Purchase List</li>
-       </ul>
-      </div>
-  </header>
+<!-- Header Section -->
+<header class="header">
+    <div class="navbar-wrapper">
+     <h2>Luxury Watches</h2>
+     <ul class="navigation">
+      <a href="index.html"><li> <i class="fas fa-home home"></i>  Home </li></a>
+      <a href="#"><li> <i class="fas fa-list"></i> Collections</li></a>
+      <a href="#"><li><i class="fas fa-cart-plus"></i>Purchase List</li></a>
+     </ul>
+    <div class="ad-button"> Post an Ad</div>
+
+    </div>
+</header>
+
 
   <!-- Mobile Header -->
   <header class="header-mobile">
@@ -33,9 +36,7 @@
      </ul>
     </div>
    </header> 
-
-
-  <!-- End Of Header Section -->
+  <!-- End Of Mobile Header Section -->
    
   <!-- Search Section -->
   <section class="search">
@@ -46,98 +47,125 @@
          <option value="Woman">Woman</option>
          <option value="Smart">Smart</option>
       </select>
-      <input type="text" id="placeholder" placeholder="Search For A Watch">
+      <input type="text" class="placeholder" placeholder="Search For A Watch">
+      <input type="text" class="placeholder" placeholder="Where?">
       <div id="button"><a id="search" href="search.html"> Search </a></div> 
     </div> 
   </section>
   <hr>
   <!-- End Of Search Section -->
+   
+  <!-- Start of Categories section -->
+  <section class="categories">
+   <main class="grid">
+     <aside class="filter">
+      <div class="type">
+        <h2>Type</h2>
+        <div class="border-small"></div>
+        <div class="item">
+          <input type="checkbox" id="new" name="type">
+          <label for="new">Brand New</label>
+        </div>
+        <div class="item">
+          <input type="checkbox" id="used" name="type">
+          <label for="used">Used</label>
+        </div>
+      </div>
 
-  <!-- Start Of Catalogue Section -->
-  <section class="catalogue">
-    <h2>Search Results For Mens Watches</h2>
-  <hr>
-    <div class="catalogue-wrapper"> 
-    <div class="watch">
-        <div class="watch-image">
-          <img src="https://cdn2.jomashop.com/media/catalog/product/cache/c0c2f1269db30e4ed3d89c79b75de011/t/i/tissot-automatics-iii-black-dial-men_s-watch-t0659301105100.jpg?width=350&height=350" alt="watch">
-        </div>
-        <div class="about-watch">
-        <p>TISSOT Automatics III Day Date Black Dial Men's Watch</p>
-        <p>230$</p>
-        </div>
-    </div>   
-    <div class="watch">
-        <div class="watch-image">
-          <img src="https://cdn2.jomashop.com/media/catalog/product/cache/c0c2f1269db30e4ed3d89c79b75de011/m/i/michael-kors-access-gen-4-runway-silicone-strap-touchscreen-smartwatch-41mm-mkt5053.jpg?width=350&height=350" alt="watch">
-        </div>
-        <div class="about-watch">
-        <p>MICHAEL KORS Access Gen 4 Runway Silicone Strap</p>
-        <p>230$</p>
-        </div>
-    </div>   
+      <div class="type">
+       <h2>Categories</h2>
+       <div class="border-small"></div>
+       <div class="item">
+        <input type="checkbox" id="man" name="categorie-type">
+        <label for="man">Men Watches</label>
+       </div>
+       <div class="item">
+        <input type="checkbox" id="woman" name="categorie-type">
+        <label for="woman">Woman Watches</label>
+       </div>
+       <div class="item">
+        <input type="checkbox" id="smart" name="categories-type">
+        <label for="smart">Smart Watches</label>
+       </div>
+      </div>
+      <div class="type">
+       <h2>Price Range</h2>
+       <div class="border-small"></div>
+       <div class="item">
+        <input type="checkbox" id="price" name="price-type">
+        <label for="price">0-100$</label>
+       </div>
 
-    <div class="watch">
-        <div class="watch-image">
-          <img src="https://cdn2.jomashop.com/media/catalog/product/cache/c0c2f1269db30e4ed3d89c79b75de011/r/a/rado-d-star-chronograph-off-white-dial-stainless-steel-men_s-watch-r15937113.jpg?width=350&height=350" alt="watch">
-        </div>
-        <p>RADO D Star Chronograph Off White Dial Stainless Steel</p>
-        <p>500$</p>
-    </div>   
-    
-    <div class="watch">
-        <div class="watch-image">
-          <img src="https://cdn2.jomashop.com/media/catalog/product/cache/c0c2f1269db30e4ed3d89c79b75de011/t/i/tissot-t-classic-automatic-iii-white-dial-mens-watch-t065.930.11.031.00.jpg?width=350&height=350" alt="watch">
-        </div>
-        <div class="about-watch">
-        <p>TISSOT T-Classic Automatic III Day Date</p>
-        <p>200$</p>
-        </div>
-    </div>   
-    
-    <div class="watch">
-        <div class="watch-image">
-          <img src="https://cdn2.jomashop.com/media/catalog/product/cache/c0c2f1269db30e4ed3d89c79b75de011/s/e/seiko-automatic-black-dial-black-rubber-men_s-watch-skx007j1.jpg?width=350&height=350" alt="watch">
-        </div>
-        <div class="about-watch">
-        <p>SEIKO Automatic Black Dial Black Rubber Men's Watch</p>
-        <p>329  $</p>
-        </div>
-    </div>   
-    
-    <div class="watch">
-        <div class="watch-image">
-          <img src="https://cdn2.jomashop.com/media/catalog/product/cache/c0c2f1269db30e4ed3d89c79b75de011/s/e/seiko-prospex-solar-powered-black-dial-mens-chronograph-watch-ssg015.jpg?width=350&height=350" alt="watch">
-        </div>
-        <div class="about-watch">
-        <p>SEIKO Prospex World Time Radio-Sync Solar Chronograph Black Dial Men's Watch</p>
-        <p>199$</p>
-        </div>
-    </div>   
+       <div class="item">
+        <input type="checkbox" id="price" name="price-type">
+        <label for="price">100$-200$</label>
+       </div>
 
-    <div class="watch">
-        <div class="watch-image">
-          <img src="https://cdn2.jomashop.com/media/catalog/product/cache/c0c2f1269db30e4ed3d89c79b75de011/h/a/hamilton-khaki-field-automatic-black-dial-mens-watch-h70555533--.jpg?width=350&height=350" alt="watch">
-        </div>
-        <div class="about-watch">
-        <p>SEIKO Prospex World Time Radio-Sync Solar Black Dial Men's Watc</p>
-        <p>199$</p>
-        </div>
-    </div>   
-    
-    <div class="watch">
-        <div class="watch-image">
-          <img src="https://cdn2.jomashop.com/media/catalog/product/cache/df24c858758eb768757877f23cd17493/g/l/glycine-combat-sub-automatic-black-dial-men_s-watch-gl0096.jpg?width=350&height=350" alt="watch">
-        </div>
-        <div class="about-watch">
-        <p>SEIKO Prospex World Time Radio-Sync</p>
-        <p>199$</p>
-        </div>
-    </div>   
+       <div class="item">
+        <input type="checkbox" id="price" name="price-type">
+        <label for="price">200$-300$</label>
+       </div>
+      </div>
+     </aside>
+    <div class="search-wrapper">
+      <div class="search-header">
+        <p>23 results for "Man" search</p>
+        <div class="small-border"></div>
+      </div>
+      <div class="men-watch">
+       <img src="/Assets/Images/ball-trainmaster-endeavour-james-cook-limited-edition-automatic-white-dial-mens-watch-nm3288ds2cjwh-removebg-preview.png" alt="watch">
+       <div class="about-watch">
+        <h2>Ball Trainmaster</h2>
+        <p>Stainless steel case with a stainless steel bracelet. Fixed stainless steel bezel. White dial with luminous blue hands and Roman numeral hour markers. Minute markers. 60 second markers around the outer rim. Dial Type: Analog. Luminescent hands and markers. Date display at the 3 o'clock position. BALL calibre RR1101 automatic movement, containing 21 Jewels, bitting at 28800 vph, and has a power reserve of approximately 42 hours. Scratch resistant sapphire crystal. Screw down crown. Solid case back. Round case shape. Case size: 40 mm. Case thickness: 10.50 mm. Band width: 20 mm. Deployment clasp with a push button release. Water resistant at 50 meters / 165 feet. Functions: date, hour, minute, second. Additional Info: limited edition of 250 pieces celebrating james cook's first voyage on endeavour in 1768. Trainmaster Endeavour James Cook Limited Edition Series. Dress watch style. Watch label: Swiss Made. Ball Trainmaster Endeavour James Cook Limited Edition Automatic White Dial Men's Watch NM3288D-S2CJ-WH.</p>
+        <p>Location: Bern</p>
+      </div>
+      <div class="watch-footer">
+         <div class="price-search">130$</div>
+      </div>
+      </div>
 
+      <div class="men-watch">
+        <img src="/Assets/Images/glycine-combat-sub-automatic-black-dial-men_s-watch-gl0087-removebg-preview.png" alt="watch">
+        <div class="about-watch">
+         <h2>Glycine Combat</h2>
+         <p>Stainless steel case with a black silicone strap. Uni-directional rotating stainless steel bezel with a black aluminum ring. Black dial with luminous silver-tone hands and dot hour markers. 24 hour markers. Minute markers around the outer rim. Dial Type: Analog. Luminescent hands and markers. Date display at the 3 o'clock position. Glycine calibre GL 224 automatic movement, based upon ETA 2824-2, containing 25 Jewels, bitting at 28800 vph, and has a power reserve of approximately 38 hours. Scratch resistant sapphire crystal. Screw down crown. Solid case back. Round case shape. Case size: 42 mm. Case thickness: 10.6 mm. Band width: 22 mm. Tang clasp. Water resistant at 200 meters / 660 feet. Functions: date, hour, minute, second. Combat Sub Series. Sport watch style. Watch label: Swiss Made. Item Variations: 3908.196.N1.D9. Glycine Combat Sub Automatic Black Dial Men's Watch GL0087.</p>
+         <p>Location: Paris</p>
+       </div>
+       <div class="watch-footer">
+          <div class="price-search">230$</div>
+       </div>
+       </div>
+
+       <div class="men-watch">
+        <img src="/Assets/Images/hamilton-khaki-field-automatic-black-dial-mens-watch-h70555533---removebg-preview.png" alt="watch">
+        <div class="about-watch">
+         <h2>Hamilton Khaki</h2>
+         <p>Stainless steel case with a brown leather strap. Fixed stainless steel bezel. Black dial with luminous hands and Arabic numeral hour markers. Minute markers around the outer rim. 24 hour (GMT) scale. Dial Type: Analog. Luminescent hands and markers. Day and date display at the 12 o'clock position. Hamilton calibre H-40 automatic movement, containing 25 Jewels, bitting at 21600 vph, and has a power reserve of approximately 80 hours. Scratch resistant sapphire crystal. Protected steel crown. Skeleton case back. Round case shape. Case size: 40 mm. Case thickness: 11 mm. Band width: 20 mm. Band length: 8.5 inches. Tang clasp. Water resistant at 50 meters / 165 feet. Functions: date, day, hour, minute, second. Khaki Series. Sport watch style. Watch label: Swiss Made. Item Variations: H64455533. Hamilton Khaki King Series Automatic Men's Watch H64455533.</p>
+         <p>Location: Paris</p>
+       </div>
+       <div class="watch-footer">
+          <div class="price-search">110$</div>
+       </div>
+       </div>
+
+       <div class="men-watch">
+        <img src="/Assets/Images/seiko-automatic-black-dial-black-rubber-men_s-watch-skx007j1-removebg-preview.png" alt="watch">
+        <div class="about-watch">
+         <h2>Ball Trainmaster</h2>
+         <p>Stainless steel case with a black rubber strap. Uni-directional rotating coin edge stainless steel bezel with a black ring. Black dial with luminous arrow-shaped hands and dot hour markers. Minute markers around the outer rim. Dial Type: Analog. Luminescent hands and markers. Day of the week and date display at the 3 o'clock position (English / Arabic). Seiko caliber 7S26 automatic movement, based upon Seiko 7002, containing 21 Jewels, bitting at 21600 vph, and has a power reserve of approximately 40 hours. Scratch resistant Hardlex crystal. Screw down crown. Solid case back. Round case shape. Case size: 43 mm. Case thickness: 13 mm. Band width: 22 mm. Tang clasp. Water resistant at 200 meters / 660 feet. Functions: date, day, hour, minute, second. Sport watch style. Watch label: Made in Japan. Seiko Automatic Black Dial Black Rubber Men's Watch SKX007J1.</p>
+         <p>Location: Bern</p>
+       </div>
+       <div class="watch-footer">
+          <div class="price-search">200$</div>
+       </div>
+       </div>
     </div>
+  
+   </main>
   </section>
-  <!-- End Of Catalogue Section -->
+  <!-- End Of Categories section -->
+  
+ 
   <!-- Start Of Footer Section -->
   <hr>
   <footer>
@@ -159,6 +187,7 @@
    </div>
    <hr>
     <div class="bottom-nav">
+     
      <div class="social">
       <a class="social-icon-link" href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
       <a class="social-icon-link" href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>

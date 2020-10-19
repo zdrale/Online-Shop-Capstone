@@ -141,6 +141,7 @@
   .catalogue-wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .watch-cell {
@@ -200,8 +201,6 @@
     width: 6rem;
     background-color: #383838;
     border: none;
-    border-radius: 50%;
-    height: 50px;
   }
 
   hr {
@@ -391,6 +390,10 @@
 /* Big Screens */
 
 @media (min-width: 769px) {
+  * {
+    box-sizing: border-box;
+  }
+
   h2,
   p {
     font-family: 'Lato', sans-serif;
@@ -405,20 +408,21 @@
   .watch {
     display: flex;
     height: 300px;
-    margin: 0 20rem;
+    margin: 0 auto;
   }
   
-  .watch:before {
+  .catalogue-wrapper-hot::before {
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
     position: absolute;
     bottom: -100px;
+    left: 10px;
     color: rgba(199, 43, 67, 0.8995973389355743);
   }
 
-  .watch::after {
+  .catalogue-wrapper-hot::after {
     font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
     position: absolute;
-    right: 400px;
+    right: 10px;
     bottom: -100px;
     color: rgba(199, 43, 67, 0.8995973389355743);
   }
@@ -599,7 +603,6 @@
     width: 6rem;
     background-color: #383838;
     border: 0;
-    border-radius: 50%;
   }
 
   hr {
@@ -629,6 +632,7 @@
       ". . . .";
     margin: 0 180px;
     padding: 1rem;
+    overflow: hidden;
   }
 
   .catalogue-wrapper-women {
@@ -640,6 +644,7 @@
       ". . . .";
     margin: 0 180px;
     padding: 1rem;
+    overflow: hidden;
   }
 
   .catalogue-wrapper::before {
@@ -663,7 +668,7 @@
     position: absolute;
     color: rgba(199, 43, 67, 0.8995973389355743);
     left: 4rem;
-    bottom: -70rem;
+    bottom: -65rem;
   }
 
   .catalogue-wrapper-women::after {
@@ -671,7 +676,7 @@
     position: absolute;
     color: rgba(199, 43, 67, 0.8995973389355743);
     right: 4rem;
-    bottom: -70rem;
+    bottom: -65rem;
   }
 
   .watch-cell {
@@ -701,9 +706,12 @@
   }
 
   .catalogue-wrapper-hot {
+    display: flex;
+    flex-direction: column;
     font-family: 'Lato', sans-serif;
     color: #888;
     font-weight: bold;
+    margin: auto;
   }
 
   .men-header {
@@ -775,5 +783,106 @@
   .social a {
     text-decoration: none;
     color: red;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .border-small {
+    height: 2px;
+    background-color: #d35266;
+    width: 90%;
+    margin-bottom: 10px;
+    opacity: 0.3;
+  }
+
+  .type {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
+  .small-border {
+    height: 2px;
+    background-color: #d35266;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.3;
+  }
+
+  .filter {
+    margin-left: 1rem;
+  }
+
+  .categories {
+   font-size: 20px;
+  }
+
+  .type {
+    margin-bottom: 3rem;
+  }
+
+  .search-header {
+    margin-bottom: 3rem;
+  }
+
+  .search-header p {
+    margin-bottom: 1rem;
+  }
+  
+  .men-watch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+
+  .men-watch h2 {
+    height: 20px;
+  }
+
+  .men-watch p {
+    font-size: 16px;
+  }
+
+  .men-watch img {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .about-watch {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1.2em;
+    flex-grow: 1;
+  }
+
+  .price-search {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    margin-top: 60px;
+    background-color: rgba(199, 43, 67, 0.8995973389355743);
+    border-radius: 4px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .watch-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 1rem;
   }
 }
