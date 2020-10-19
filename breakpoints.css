@@ -19,20 +19,27 @@
     display: flex;
     height: 300px;
     margin: 0 auto;
+    flex-direction: column;
+    width: 100%;
   }
 
   .watch-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
     background-color: white;
     border: 1px solid #ddd;
     margin-bottom: 1rem;
   }
-  
+
   .price-catalogue {
     display: flex;
     justify-content: center;
     align-items: center;
     float: right;
-    margin:auto;
+    margin: auto;
     height: 30px;
     width: 100px;
     margin-top: 60px;
@@ -44,6 +51,9 @@
 
   .watch img {
     margin: 0 auto;
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
   }
 
   .about-watch h1 {
@@ -58,21 +68,6 @@
 
   .by {
     margin-top: 2rem;
-  }
-
-  .watch:before {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
-    position: absolute;
-    bottom: 300px;
-    color: rgba(199, 43, 67, 0.8995973389355743);
-  }
-
-  .watch::after {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
-    position: absolute;
-    right: 60px;
-    bottom: 300px;
-    color: rgba(199, 43, 67, 0.8995973389355743);
   }
 
   .price {
@@ -137,19 +132,11 @@
   .search {
     display: none;
   }
-  
+
   .catalogue-wrapper {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-  }
-
-  .watch-cell {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    text-align: center;
   }
 
   .catalogue-wrapper-women {
@@ -184,15 +171,6 @@
     border-radius: 4px;
   }
 
-  .watch img {
-    height: 200px;
-    width: 200px;
-  }
-   
-  .watch img::before {
-    content: "\f0a9";
-  }
-
   button {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
@@ -208,7 +186,7 @@
     margin-bottom: 2rem;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
-  
+
   .catalogue-wrapper-hot {
     display: flex;
   }
@@ -221,7 +199,7 @@
   .catalogue h2 {
     font-size: 16px;
   }
-  
+
   .hot-ads {
     display: flex;
     justify-content: center;
@@ -235,13 +213,6 @@
 
   .hot-ads h2 {
     color: white;
-  }
-
-  .watch {
-    margin-left: 5rem;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
   }
 
   footer {
@@ -308,10 +279,6 @@
     color: red;
   }
 
-  .watch img {
-    max-width: 100%;
-  }
-
   .men-header {
     margin-top: 5.2rem;
     margin-bottom: 3rem;
@@ -324,7 +291,7 @@
     background-color: #f8f9fa;
   }
 
-  .small-border{
+  .small-border {
     height: 2px;
     background-color: #d35266;
     width: 100%;
@@ -346,9 +313,9 @@
   }
 
   .search-wrapper {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .men-watch {
@@ -371,7 +338,6 @@
     border-radius: 4px;
     color: white;
     font-family: 'Lato', sans-serif;
-   
   }
 
   .watch-footer {
@@ -385,7 +351,6 @@
   .about-watch {
     margin: 1rem;
   }
-
 }
 
 /* Mobile Phones */
@@ -447,7 +412,6 @@
     border-radius: 4px;
     margin-top: 1rem;
   }
-
 }
 
 /* Big Screens */
@@ -467,35 +431,27 @@
     background-color: #f8f9fa;
     text-align: center;
   }
-  
+
   .watch {
     display: flex;
     height: 300px;
     margin: 0 auto;
   }
-  
-  .catalogue-wrapper-hot::before {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
-    position: absolute;
-    bottom: -100px;
-    left: 10px;
-    color: rgba(199, 43, 67, 0.8995973389355743);
-  }
 
-  .catalogue-wrapper-hot::after {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
-    position: absolute;
-    right: 10px;
-    bottom: -100px;
-    color: rgba(199, 43, 67, 0.8995973389355743);
+  .catalogue-wrapper-hot {
+    overflow: hidden;
   }
 
   .about-watch {
     display: flex;
     flex-direction: column;
     height: 300px;
-    align-self:center;
+    align-self: center;
     width: 400px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1.2em;
+    flex-grow: 1;
   }
 
   .about-watch h1 {
@@ -535,7 +491,7 @@
     justify-content: center;
     align-items: center;
     float: right;
-    margin-right:1rem;
+    margin-right: 1rem;
     height: 30px;
     width: 100px;
     margin-top: 60px;
@@ -601,11 +557,11 @@
     padding: 0 1.5rem;
     color: #888;
   }
-  
+
   .navigation a {
-    text-decoration: none; 
+    text-decoration: none;
   }
-  
+
   .search {
     display: flex;
     flex-direction: column;
@@ -691,55 +647,21 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 10px 10px;
-    grid-template-areas:
-      ". . . .";
+    grid-template-areas: ". . . .";
     margin: 0 180px;
     padding: 1rem;
     overflow: hidden;
-  }
+  } 
 
   .catalogue-wrapper-women {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 10px 10px;
-    grid-template-areas:
-      ". . . .";
+    grid-template-areas: ". . . .";
     margin: 0 180px;
     padding: 1rem;
     overflow: hidden;
-  }
-
-  .catalogue-wrapper::before {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
-    position: absolute;
-    left: 4rem;
-    bottom: -30rem;
-    color: rgba(199, 43, 67, 0.8995973389355743);
-  }
-
-  .catalogue-wrapper::after {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
-    position: absolute;
-    color: rgba(199, 43, 67, 0.8995973389355743);
-    right: 4rem;
-    bottom: -30rem;
-  }
-
-  .catalogue-wrapper-women::before {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f053";
-    position: absolute;
-    color: rgba(199, 43, 67, 0.8995973389355743);
-    left: 4rem;
-    bottom: -65rem;
-  }
-
-  .catalogue-wrapper-women::after {
-    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f054";
-    position: absolute;
-    color: rgba(199, 43, 67, 0.8995973389355743);
-    right: 4rem;
-    bottom: -65rem;
   }
 
   .watch-cell {
@@ -801,6 +723,7 @@
 
   .categories {
     margin-top: 2rem;
+    font-size: 20px;
   }
 
   .categories h2 {
@@ -869,6 +792,7 @@
     align-items: flex-start;
     flex-wrap: wrap;
     text-align: left;
+    margin-bottom: 3rem;
   }
 
   .small-border {
@@ -881,15 +805,7 @@
 
   .filter {
     margin-left: 1rem;
-    font-family: ;
-  }
-
-  .categories {
-   font-size: 20px;
-  }
-
-  .type {
-    margin-bottom: 3rem;
+    font-family: 'Lato', sans-serif;
   }
 
   .search-header {
@@ -899,7 +815,7 @@
   .search-header p {
     margin-bottom: 1rem;
   }
-  
+
   .men-watch {
     display: flex;
     flex-direction: row;
@@ -921,15 +837,6 @@
   .men-watch img {
     height: 300px;
     width: 300px;
-  }
-  
-  .about-watch {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    padding: 1.2em;
-    flex-grow: 1;
   }
 
   .price-search {
