@@ -16,8 +16,7 @@ Also I added 3 breakpoints for responsiveness.
 
 - HTML5
 - CSS3
-- Javascript
-- Slick
+
 ## Live Demo
 
 [Live Demo Link](https://nostalgic-dijkstra-dddde0.netlify.app/)
