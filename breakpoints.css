@@ -439,7 +439,14 @@
   }
 
   .catalogue-wrapper-hot {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    color: #888;
     overflow: hidden;
+    font-weight: bold;
+    margin: auto;
+  
   }
 
   .about-watch {
@@ -651,7 +658,7 @@
     margin: 0 180px;
     padding: 1rem;
     overflow: hidden;
-  } 
+  }
 
   .catalogue-wrapper-women {
     display: grid;
@@ -688,15 +695,6 @@
 
   .catalogue h2 {
     font-size: 16px;
-  }
-
-  .catalogue-wrapper-hot {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Lato', sans-serif;
-    color: #888;
-    font-weight: bold;
-    margin: auto;
   }
 
   .men-header {
