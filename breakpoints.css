@@ -100,7 +100,7 @@
     margin-bottom: 2rem;
   }
 
-  .navbar-wrapper h2 {
+  .navbar-wrapper h1 {
     color: #f8f9fa !important;
     font-weight: bold;
     padding-left: 2rem;
@@ -369,6 +369,10 @@
     background-color: #f8f9fa;
   }
 
+  .navbar-wrapper h1 {
+    color: #f8f9fa !important;
+  }
+
   .header-mobile {
     display: flex;
     justify-content: space-around;
@@ -553,7 +557,7 @@
     margin-left: 5rem;
   }
 
-  .navbar-wrapper h2 {
+  .navbar-wrapper h1 {
     color: #f8f9fa !important;
     font-weight: bold;
     padding-left: 2rem;
