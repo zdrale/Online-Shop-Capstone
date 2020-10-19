@@ -323,6 +323,69 @@
     color: #969696;
     background-color: #f8f9fa;
   }
+
+  .small-border{
+    height: 2px;
+    background-color: #d35266;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.3;
+    margin-top: 1rem;
+  }
+
+  .filter {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    margin: 0 1rem;
+  }
+
+  .search-header {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .search-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .men-watch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 2rem;
+    flex-wrap: wrap;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+
+  .price-search {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 80px;
+    background-color: rgba(199, 43, 67, 0.8995973389355743);
+    border-radius: 4px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+   
+  }
+
+  .watch-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 1rem;
+    width: 100%;
+  }
+
+  .about-watch {
+    margin: 1rem;
+  }
+
 }
 
 /* Mobile Phones */
@@ -788,6 +851,7 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr 3fr;
+    margin: 1rem;
   }
 
   .border-small {
@@ -817,6 +881,7 @@
 
   .filter {
     margin-left: 1rem;
+    font-family: ;
   }
 
   .categories {
