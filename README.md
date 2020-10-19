@@ -3,7 +3,7 @@
 
 ![screenshot](Assets/Images/screenshot1.png)
 
-This project is the 8th one in the HTML/CSS module at Microverse, also it is Capstone which means its lats one in this module.
+This project is the 8th one in the HTML/CSS module at Microverse, also it is Capstone which means its last one in this module.
 
 I worked on all the requirements given on this project.
 
