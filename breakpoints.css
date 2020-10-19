@@ -7,6 +7,11 @@
     font-family: 'Lato', sans-serif;
   }
 
+  .navigation a {
+    text-decoration: none;
+    color: #888;
+  }
+
   .header-mobile {
     display: none;
   }
@@ -109,10 +114,6 @@
   .navbar-wrapper ul li {
     padding: 0 1.5rem;
     color: #888;
-  }
-
-  .navigation a {
-    text-decoration: none;
   }
 
   .ad-button {
@@ -566,6 +567,7 @@
 
   .navigation a {
     text-decoration: none;
+    color: #888;
   }
 
   .search {
