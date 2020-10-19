@@ -357,6 +357,10 @@
 /* Mobile Phones */
 
 @media screen and (max-width: 600px) {
+  ul li .text {
+    display: none;
+  }
+
   .header {
     display: none;
   }
@@ -595,7 +599,6 @@
   #select-watch {
     height: 2.4rem;
     width: 10rem;
-    border-radius: 4px;
   }
 
   #placeholder {
