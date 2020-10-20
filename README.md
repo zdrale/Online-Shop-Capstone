@@ -1,5 +1,5 @@
 # Online-Shop-Capstone
-> This project was created by the design of ZATTIX and has customized content. The main goal of this project was to follow design of website and show skills by making web site of someones design.
+> This project was created by the design of <a href="https://www.behance.net/gallery/24796463/ZATTIX">Mohamad Awad</a> and has customized content. The main goal of this project was to follow design of website and show skills by making web site of someones design.
 
 ![screenshot](Assets/Images/screenshot.png)
 
