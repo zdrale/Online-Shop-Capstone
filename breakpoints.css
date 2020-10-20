@@ -339,6 +339,61 @@
   .about-watch {
     margin: 1rem;
   }
+
+  .footer-wrapper {
+    margin: 0 auto;
+  }
+
+  .languages {
+   display: block;
+  }
+
+  .country {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .language {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .currency {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .languages {
+    display: flex;
+    flex-direction: column;
+   }
+ 
+   .country p {
+    margin-top: 4rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+   }
+ 
+   .language p {
+    margin-top: 4rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+   }
+ 
+   .currency p {
+    margin-top: 4rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+   }
+
+   .languages-btn {
+     height: 30px;
+     width: 150px;
+     background-color: white;
+     color: #d35266;
+     border: 1px solid #d35266;
+     border-radius: 4px;
+   }
 }
 
 /* Mobile Phones */
@@ -726,7 +781,7 @@
 
   .categories {
     margin-top: 2rem;
-    margin-right: 10rem;
+    margin-right: auto;
     font-size: 20px;
   }
 
@@ -865,10 +920,54 @@
   .footer-wrapper {
     display:  flex;
     flex-direction: row;
+    margin: 0 5rem;
+  }
+
+  .languages {
+   display: flex;
+   flex-direction: column;
+  }
+
+  .country {
+    display: flex;
+    flex-direction: row;
   }
 
   .language {
-    display: inline-flex;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
   }
+
+  .currency {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .languages {
+    display: flex;
+   }
+ 
+   .country p {
+    margin-top: 4rem;
+    margin-right: 1rem;
+   }
+ 
+   .language p {
+    margin-top: 4rem;
+    margin-right: 1rem;
+   }
+ 
+   .currency p {
+    margin-top: 4rem;
+    margin-right: 1rem;
+   }
+
+   .languages-btn {
+     height: 30px;
+     width: 150px;
+     background-color: white;
+     color: #d35266;
+     border: 1px solid #d35266;
+     border-radius: 4px;
+   }
 }
