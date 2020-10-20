@@ -399,6 +399,11 @@
     display: none;
   }
 
+  .filter {
+    margin-left: 3.5rem;
+    display: block;
+  }
+
   .header {
     display: none;
   }
@@ -409,6 +414,7 @@
 
   .navbar-wrapper {
     background-color: transparent;
+    width: 100%;
   }
 
   .by {
@@ -466,6 +472,15 @@
     border: none;
     border-radius: 4px;
     margin-top: 1rem;
+  }
+
+  .watch-cell {
+    width: 100%;
+  }
+
+  .men-watch {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
