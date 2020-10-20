@@ -75,18 +75,6 @@
     margin-top: 2rem;
   }
 
-  .price {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    width: 100px;
-    margin: auto;
-    background-color: rgba(199, 43, 67, 0.8995973389355743);
-    border-radius: 4px;
-    color: white;
-  }
-
   .navbar-wrapper {
     display: flex;
     justify-content: space-around;
@@ -189,12 +177,11 @@
   }
 
   .catalogue-wrapper-hot {
-    display: flex;
+    display: none;
   }
 
   .catalogue {
-    text-align: center;
-    width: auto;
+    display: none;
   }
 
   .catalogue h2 {
@@ -369,6 +356,14 @@
     background-color: #f8f9fa;
   }
 
+  .navbar-wrapper {
+    background-color: transparent;
+  }
+
+  .by {
+    margin-top: auto;
+  }
+
   .navbar-wrapper h1 {
     color: #f8f9fa !important;
   }
@@ -457,6 +452,10 @@
     margin: auto;
   }
 
+  .by {
+    display: flex;
+  }
+
   .about-watch {
     display: flex;
     flex-direction: column;
@@ -485,19 +484,17 @@
     margin-top: 90px;
   }
 
-  .by {
-    margin-top: 2rem;
-  }
-
   .price {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
     height: 30px;
-    width: 100px;
+    width: auto;
     margin-top: 60px;
     background-color: rgba(199, 43, 67, 0.8995973389355743);
     border-radius: 4px;
+    margin-right: 0.2rem;
     color: white;
   }
 
@@ -729,6 +726,7 @@
 
   .categories {
     margin-top: 2rem;
+    margin-right: 10rem;
     font-size: 20px;
   }
 
@@ -862,5 +860,15 @@
     flex-direction: row;
     align-items: flex-end;
     padding: 1rem;
+  }
+
+  .footer-wrapper {
+    display:  flex;
+    flex-direction: row;
+  }
+
+  .language {
+    display: inline-flex;
+    flex-direction: column;
   }
 }
