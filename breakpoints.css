@@ -482,6 +482,14 @@
     width: 100%;
     margin: 0 auto;
   }
+
+  .men-watch img {
+    width: 100%;
+  }
+
+  .price-search {
+    padding-top: 0.5rem;
+  }
 }
 
 /* Big Screens */
