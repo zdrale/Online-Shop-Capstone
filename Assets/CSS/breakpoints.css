@@ -512,6 +512,9 @@
   .men-watches {
     background-color: #f8f9fa;
     text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem 10rem;
   }
 
   .watch {
@@ -582,6 +585,7 @@
     align-items: center;
     float: right;
     margin-right: 1rem;
+    margin-top: 1rem;
     height: 30px;
     width: 100px;
     background-color: rgba(199, 43, 67, 0.8995973389355743);
@@ -657,13 +661,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 1rem;
     width: auto;
     font-size: 2.2rem;
     font-weight: lighter;
     color: #fff;
-    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 20%, rgba(211, 82, 102, 0.3617822128851541) 101%), url(./Assets/Images/watch-background.jpg);
-    height: 60vh;
+    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 20%, rgba(211, 82, 102, 0.3617822128851541) 101%), url(/Assets/Images/watch-background.jpg);
+    height: 40vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -733,12 +736,11 @@
 
   .catalogue-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: 1fr;
     gap: 10px 10px;
     grid-template-areas: ". . . .";
-    margin: 0 180px;
-    padding: 1rem;
+    margin: 0 auto;
     overflow: hidden;
   }
 
@@ -748,14 +750,20 @@
     grid-template-rows: 1fr;
     gap: 10px 10px;
     grid-template-areas: ". . . .";
-    margin: 0 180px;
-    padding: 1rem;
+    margin: 0 auto;
     overflow: hidden;
   }
 
+
+  .watch-cell img {
+   height: 120px;
+   width: 120px;
+  }
+
   .watch-cell {
-    width: 300px;
-    height: 490px;
+    width: auto;
+    height: auto;
+    padding: 1rem;
     background-color: white;
     border: 1px solid #ddd;
   }
@@ -781,9 +789,9 @@
 
   .men-header {
     padding-top: 1.5rem;
-    margin-left: 12rem;
     display: flex;
-    height: 3rem;
+    justify-content: center;
+    padding: 1rem;
     font-size: 1.3rem;
     color: #969696;
     background-color: #f8f9fa;
@@ -791,7 +799,7 @@
 
   .about {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: justify;
     font-family: 'Catamaran', sans-serif;
   }
