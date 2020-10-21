@@ -224,6 +224,7 @@
   }
 
   .categories {
+    text-align: center;
     margin-top: 2rem;
   }
 
@@ -239,7 +240,6 @@
   .categories ul {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
-    margin-left: 5rem;
     line-height: 2rem;
   }
 
@@ -736,7 +736,7 @@
 
   .catalogue-wrapper {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     gap: 10px 10px;
     grid-template-areas: ". . . .";
@@ -754,10 +754,9 @@
     overflow: hidden;
   }
 
-
   .watch-cell img {
-   height: 120px;
-   width: 120px;
+    height: 120px;
+    width: 120px;
   }
 
   .watch-cell {
@@ -788,9 +787,8 @@
   }
 
   .men-header {
-    padding-top: 1.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 1rem;
     font-size: 1.3rem;
     color: #969696;
