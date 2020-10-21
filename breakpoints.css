@@ -140,6 +140,10 @@
     font-family: 'Lato', sans-serif;
   }
 
+  .watch-cell img {
+    width: 100%;
+  }
+
   .placeholder {
     margin-right: 1rem;
     height: 1.7rem;
@@ -580,7 +584,6 @@
     margin-right: 1rem;
     height: 30px;
     width: 100px;
-    margin-top: 60px;
     background-color: rgba(199, 43, 67, 0.8995973389355743);
     border-radius: 4px;
     color: white;
