@@ -121,8 +121,49 @@
   }
 
   .search {
-    display: none;
+    text-align: center;
+    width: auto;
+    font-size: 2.2rem;
+    font-weight: lighter;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(211, 82, 102, 1) 0%, rgba(199, 43, 67, 0.8995973389355743) 20%, rgba(211, 82, 102, 0.3617822128851541) 101%), url(/Assets/Images/watch-background.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
+
+  .search h2 {
+    padding: 0.5rem;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #f8f9fa;
+    padding: 0.3rem;
+    width: 6rem;
+    height: 2rem;
+    background-color: #383838;
+    border: none;
+    border-radius: 4px;
+  }
+
+  #search {
+    text-decoration: none;
+    color: #f8f9fa;
+}
 
   .catalogue-wrapper {
     display: flex;
@@ -136,9 +177,9 @@
   }
 
   #select-watch {
-    margin-right: 0.2rem;
+    margin: 0.2rem auto;
     height: 2rem;
-    width: 5rem;
+    width: 61%;
     font-family: 'Lato', sans-serif;
   }
 
@@ -147,9 +188,9 @@
   }
 
   .placeholder {
-    margin-right: 1rem;
     height: 1.7rem;
-    width: 9rem;
+    margin: 0.2rem auto;
+    width: 60%;
     font-family: 'Lato', sans-serif;
   }
 
@@ -447,10 +488,6 @@
     margin-top: 1rem;
   }
 
-  #select-watch {
-    width: 91%;
-  }
-
   .hot-ads p {
     text-align: right;
   }
@@ -481,7 +518,8 @@
   }
 
   .watch-cell {
-    width: 100%;
+    height: 500px;
+    width: 300px;
   }
 
   .men-watch {
@@ -516,7 +554,7 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    padding: 1rem 10rem;
+    padding: 1rem 3rem;
   }
 
   .watch {
@@ -806,7 +844,7 @@
 
   .about p {
     font-family: 'Catamaran', sans-serif;
-    margin: 0 5rem;
+    /* margin: 0 5rem; */
   }
 
   .categories {
@@ -950,7 +988,7 @@
   .footer-wrapper {
     display: flex;
     flex-direction: row;
-    margin: 0 5rem;
+    margin: 0 auto;
   }
 
   .languages {
@@ -990,7 +1028,7 @@
 
   .languages-btn {
     height: 30px;
-    width: 150px;
+    width: auto;
     background-color: white;
     color: #d35266;
     border: 1px solid #d35266;
