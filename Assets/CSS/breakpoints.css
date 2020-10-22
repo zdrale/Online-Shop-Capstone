@@ -612,19 +612,14 @@
     color: white;
   }
 
-  .price-catalogue {
+  .add-btn {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    float: right;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgba(199, 43, 67, 0.8995973389355743);
+    width: 100%;
+    padding: 0.5rem;
     margin-right: 1rem;
-    margin-top: 1rem;
-    height: 30px;
-    width: 100px;
-    background-color: rgba(199, 43, 67, 0.8995973389355743);
-    border-radius: 4px;
-    color: white;
-    font-family: 'Lato', sans-serif;
   }
 
   #search {
@@ -837,8 +832,6 @@
 
   .about p {
     font-family: 'Catamaran', sans-serif;
-
-    /* margin: 0 5rem; */
   }
 
   .categories {
