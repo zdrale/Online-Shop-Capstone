@@ -19,7 +19,7 @@
   .men-watches {
     background-color: #f8f9fa;
   }
-  
+
   .add-btn {
     display: flex;
     flex-direction: row;
@@ -451,6 +451,10 @@
 
   .header {
     display: none;
+  }
+
+  .type {
+    margin-bottom: 1rem;
   }
 
   .men-watches {
