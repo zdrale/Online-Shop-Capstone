@@ -396,6 +396,7 @@
   .languages {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .country p {
@@ -477,6 +478,11 @@
 
   .hot-ads p {
     text-align: right;
+  }
+
+  .men-header {
+    font-size: 0.8rem;
+    margin:0.5rem 0;
   }
 
   .watch {
@@ -837,7 +843,6 @@
 
   .categories {
     margin-top: 2rem;
-    margin-right: auto;
     font-size: 20px;
   }
 
@@ -975,6 +980,7 @@
 
   .footer-wrapper {
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
     margin: 0 auto;
   }
@@ -1016,7 +1022,7 @@
 
   .languages-btn {
     height: 30px;
-    width: auto;
+    width: 80px;
     background-color: white;
     color: #d35266;
     border: 1px solid #d35266;
