@@ -1,7 +1,7 @@
 # Online-Shop-Capstone
 > This project was created by the design of <a href="https://www.behance.net/gallery/24796463/ZATTIX">Mohamad Awad</a> and has customized content. The main goal of this project was to follow design of website and show skills by making web site of someones design.
 
-![screenshot](Assets/Images/screenshot.png)
+![screenshot](Assets/Images/screenshot4.png)
 
 This project is the 8th one in the HTML/CSS module at Microverse, also it is Capstone which means its last one in this module.
 
