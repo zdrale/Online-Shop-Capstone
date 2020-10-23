@@ -19,7 +19,7 @@ Also I added 3 breakpoints for responsiveness.
 
 ## Live Demo
 
-[Live Demo Link](https://nostalgic-dijkstra-dddde0.netlify.app/)
+[Live Demo Link](https://raw.githack.com/zdrale/Online-Shop-Capstone/feature-branch/Html_CSS/index.html)
 
 ## Author
 
