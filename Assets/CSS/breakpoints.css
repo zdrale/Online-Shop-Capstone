@@ -541,6 +541,10 @@
   .price-search {
     padding-top: 0.5rem;
   }
+
+  footer {
+    line-height: 2;
+  }
 }
 
 /* Big Screens */
